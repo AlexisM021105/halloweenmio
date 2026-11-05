@@ -16,7 +16,7 @@ jobs:
           python-version: '3.12'
           cache: pip
 
-      -name : run test
+      -name: run test
         run: python -m pytest
 
       - name: Install dependencies
