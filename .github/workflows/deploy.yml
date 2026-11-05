@@ -16,6 +16,9 @@ jobs:
           python-version: '3.12'
           cache: pip
 
+      -name : run test
+        run: python -m pytest
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
